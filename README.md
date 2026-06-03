@@ -67,6 +67,6 @@ The application uses Retrieval-Augmented Generation (RAG) to retrieve relevant i
 
 ## Author
 
-Arthi Reddy
+AAVULA ARTHI REDDY
 B.Tech Information Technology
 
