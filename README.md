@@ -2,50 +2,71 @@
 
 ## Overview
 
-LLM-Powered RAG Assistant is a Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask questions based on their content.
+LLM-Powered RAG Assistant is an AI-powered document question-answering system that enables users to upload PDF documents and interact with them using natural language queries.
 
-The system extracts text from PDFs, converts the text into embeddings using Sentence Transformers, stores embeddings in ChromaDB, retrieves relevant context, and generates answers using the Groq LLM API.
+The application uses Retrieval-Augmented Generation (RAG) to retrieve relevant information from uploaded documents and generate accurate responses using a Large Language Model (LLM).
 
-## Features
+## Key Features
 
-* Upload multiple PDF files
-* Automatic text extraction
-* Text chunking using LangChain
-* Vector storage using ChromaDB
-* Semantic search with embeddings
+* Multi-PDF document upload
+* Automated text extraction from PDFs
+* Intelligent text chunking
+* Semantic search using vector embeddings
 * Context-aware question answering
-* FastAPI backend
+* Fast and scalable API architecture
 
-## Technologies Used
+## Tech Stack
+
+### Backend
 
 * Python
 * FastAPI
-* ChromaDB
-* Sentence Transformers
-* LangChain
-* Groq API
-* PyPDF
 
-## Project Workflow
+### AI & NLP
+
+* Sentence Transformers
+* Retrieval-Augmented Generation (RAG)
+* Groq LLM API
+
+### Vector Database
+
+* ChromaDB
+
+### Document Processing
+
+* PyPDF
+* LangChain Text Splitters
+
+## Workflow
 
 1. Upload PDF documents
-2. Extract text from PDFs
-3. Split text into chunks
-4. Generate embeddings
-5. Store embeddings in ChromaDB
-6. Retrieve relevant chunks
-7. Send context to Groq LLM
-8. Generate accurate answers
+2. Extract and preprocess text
+3. Generate vector embeddings
+4. Store embeddings in ChromaDB
+5. Retrieve relevant document chunks
+6. Provide context to the LLM
+7. Generate accurate answers
+
+## Skills Demonstrated
+
+* Generative AI
+* Large Language Models (LLMs)
+* Retrieval-Augmented Generation (RAG)
+* NLP and Semantic Search
+* Vector Databases
+* API Development
+* Backend Engineering
 
 ## Future Enhancements
 
-* User authentication
-* Chat history
-* Multi-document retrieval
-* Web interface using React
-* Cloud deployment
+* React Frontend
+* User Authentication
+* Chat History
+* Multi-user Support
+* Cloud Deployment
 
 ## Author
 
 Arthi Reddy
 B.Tech Information Technology
+
